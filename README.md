@@ -67,21 +67,9 @@ python detectphish.py --model phish_model.pkl \
 ```
 
 Sample output:
-```
+
 http://192.168.0.1/login.php -> PHISH
 https://www.google.com      -> LEGIT
 http://bit.ly@malicious//pay -> PHISH
-```
-
-## Project Structure
-
-
-detectphish/
-├── detectphish.py        # Main script
-├── requirements.txt      # Python dependencies
-├── phishing_dataset.csv  # Example dataset (not included)
-└── README.md             # Project README
-
-
 
 
